@@ -13,7 +13,7 @@ then use the function movment:
 
 > movment();
 
-example:
+cheatsheet:
 
 movment(axis, speed, time, position (on axis), angle);
 
