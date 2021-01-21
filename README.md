@@ -7,7 +7,7 @@ to implement in c++ game:
 then to calculate player movment:
 initialize a variable (in this example it is x):
 
->  int x = 
+>  double x = 
 
 then use the function movment:
 
