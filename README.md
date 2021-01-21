@@ -19,3 +19,7 @@ movment(axis, speed, time, position (on axis), angle);
 
 all of these are neccessary and the only varibles you can use in this function
 The function returns the calculations on where the player moved.
+
+# !WARNING¡
+
+This library is JUST CALCULATED and was not tested on a real c++ game.
