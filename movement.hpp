@@ -2,12 +2,12 @@
 #include <iostream>
 using namespace std;
 
-int movement(string str, int speed, int time, int pos, int angle)
+int movement(string str, double speed, double time, double pos, double angle)
 { 
 
-	int dx = 0;
-	int dy = 0;
-	int dz = 0;
+	double dx = 0;
+	double dy = 0;
+	double dz = 0;
 if (str == "x"){
 	dx = (double) (cos(angle) * speed) / time;
 } else if (str == "y") {
