@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int movement(string str, double speed, double time, double pos, double angle)
+double movement(string str, double speed, double time, double pos, double angle)
 { 
 
 	double dx = 0;
