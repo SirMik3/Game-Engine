@@ -34,6 +34,12 @@ int main() {
 
 ```
 
+Output:
+
+```
+3
+```
+
 # ¡WARNING!
 
 This library is JUST CALCULATED and was not tested on a real c++ game.
