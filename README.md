@@ -81,7 +81,7 @@ This library is JUST CALCULATED and was not tested on a real c++ game.
 
 # Conclusion
 
-Because my English teachers told me that I should ALWAYS do a conclusion, here I am. I may make a game (for a more understandable example, because I am sure you didn't understand anything in this document).
+Because my English teachers told me that I should **ALWAYS** do a conclusion, here I am. I may make a game (for a more understandable example, because I am sure you didn't understand anything in this document).
 
 Good luck in game development, 
 
