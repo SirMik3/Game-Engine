@@ -14,7 +14,7 @@ if (str == "x"){
 } else if (str == "y") {
 	dy = (double) (sin(angle) * speed) / time;
 } else {
-	dz = ((double) (tan(angle) * speed) / time) - gravity;
+	dz = (speed / time) - gravity;
 }
 
 	if (str == "x"){
@@ -27,6 +27,4 @@ if (str == "x"){
 
 	return pos;
 }
-
-
 
