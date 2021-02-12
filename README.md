@@ -17,6 +17,10 @@ cheatsheet:
 
 movment(axis, speed, time, position (on axis), angle);
 
+if the change of position is on the Z axis in a 3D game use:
+
+movment(axis, speed, time, position (on axis));
+
 all of these are neccessary and the only varibles you can use in this function
 The function returns the calculations on where the player moved.
 
@@ -66,7 +70,7 @@ using namespace std;
 int main() {
   double x = movement("x", 20, 5, 0, 50);
   double y = movement("y", 20, 5, 0, 50);
-  double z = movement("z", 20, 5, 0, 50);
+  double z = movement("z", 20, 5, 0);
   cout << x << "\n";
 }
 ```
