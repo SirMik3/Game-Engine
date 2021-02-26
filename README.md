@@ -21,6 +21,48 @@ if the change of position is on the Z axis in a 3D game use:
 
 movment(axis, speed, time, position (on axis));
 
+if you're not using the Z axis add a last variable and make it 0:
+
+```
+#include <iostream>
+#include "movement.hpp"
+using namespace std;
+ 
+int main() {
+  double x = movement("x", 20, 5, 0, 50, 0);
+  double y = movement("y", 20, 5, 0, 50, 0);
+  double z = movement("z", 20, 5, 0);
+  cout << x << "\n";
+}
+```
+
+and use another variable to called jump time on the Z axis:
+
+```
+#include <iostream>
+#include "movement.hpp"
+using namespace std;
+ 
+int main() {
+  double x = movement("x", 20, 5, 0, 50, 0);
+  double y = movement("y", 20, 5, 0, 50, 0);
+  double z = movement("z", 20, 5, 0);
+  cout << x << "\n";
+}
+```
+
+so the cheatsheet should look like this:
+
+
+movement on x and y axis:
+
+ movement(axis, speed, time, position (on axis), angle, 0 (this is always 0 on x & y axis)) 
+ 
+movement on z axis:
+
+ movement(axis, speed, time, 0, 0, jumptime) 
+
+
 all of these are neccessary and the only varibles you can use in this function
 The function returns the calculations on where the player moved.
 
