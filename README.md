@@ -116,6 +116,16 @@ int main() {
   cout << x << "\n";
 }
 ```
+
+# The Mathematics
+ 
+Xv = cos<sub>2</sub>(angle) * S  &divide; t
+
+Yv = sin<sub>2</sub>(angle) * S  &divide; t
+
+Zv =  (S &divide; t) - gravity
+
+These formulas are repeated in the game loop. 
  
 # ¡WARNING!
 
