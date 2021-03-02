@@ -14,7 +14,7 @@ if (str == "x"){
 } else if (str == "y") {
 	dy = (double) (sin(angle) * speed) / time;
 } else {
-	dz = (speed / time) - gravity;
+	dz = (speed) - gravity;
 }
 
 	if (str == "x"){
