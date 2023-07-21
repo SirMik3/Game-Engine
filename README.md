@@ -1,6 +1,6 @@
 # Game-Engine
 
-## This project is still in development
+> **_NOTE:_**  !! This project is still in development !!
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 
